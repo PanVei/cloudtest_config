@@ -1,0 +1,21 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: cloudtest-company #指定服务名
+  #datasource:
+    #driverClassName: com.mysql.jdbc.Driver
+    #url: jdbc:mysql://127.0.0.1:3306/cloudtest_company
+    #username: root
+    #password: admin
+  jpa:
+    database: MySQL
+    show-sql: true
+    generate-ddl: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9000/eureka/
+feign:
+  hystrix:
+   enabled: true #熔断器
