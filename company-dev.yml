@@ -18,4 +18,4 @@ eureka:
       defaultZone: http://127.0.0.1:9000/eureka/
 feign:
   hystrix:
-   enabled: true #熔断器
+   enabled: false #熔断器
