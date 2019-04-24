@@ -20,4 +20,4 @@ feign:
   hystrix:
    enabled: true #熔断器
 sms: 
-  address: 158xxxxxxxx
+  address: 168xxxxxxxx
